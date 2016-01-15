@@ -110,7 +110,7 @@ define("ember-cli-deploy-github-pages-test/templates/application", ["exports"], 
         var el0 = dom.createDocumentFragment();
         var el1 = dom.createElement("h2");
         dom.setAttribute(el1, "id", "title");
-        var el2 = dom.createTextNode("Welcome to Ember!!!!???!!??!!??");
+        var el2 = dom.createTextNode("Welcome to Ember!!!!???!!??!!??!!");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n\n");
@@ -158,7 +158,7 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("ember-cli-deploy-github-pages-test/app")["default"].create({"name":"ember-cli-deploy-github-pages-test","version":"0.0.0+190244a8"});
+  require("ember-cli-deploy-github-pages-test/app")["default"].create({"name":"ember-cli-deploy-github-pages-test","version":"0.0.0+9e0cd307"});
 }
 
 /* jshint ignore:end */
